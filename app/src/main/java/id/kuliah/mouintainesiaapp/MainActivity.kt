@@ -15,5 +15,9 @@ class MainActivity : AppCompatActivity() {
             intent =  Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
+        textView_regist.setOnClickListener(){
+            intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
